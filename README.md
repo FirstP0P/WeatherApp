@@ -1,5 +1,5 @@
-# weatherApp
-🌤️ Weather App 
+#🌤️ Weather App 
+
 A simple weather application built with React.js that fetches real-time weather data using the OpenWeather API.  
 
 🚀 Features 
