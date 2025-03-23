@@ -1,21 +1,47 @@
-<<<<<<< HEAD
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based weather application that provides real-time weather updates for any location.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Fetches real-time weather data from an API
+- Displays temperature, humidity, wind speed, and more
+- Search functionality to check the weather for different locations
+- Responsive design for mobile and desktop
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# 🌤️ Weather App 
+## 🛠 Tech Stack
+- HTML, CSS, JavaScript
+- Vite (for fast development)
+- OpenWeather API (or similar) for weather data
 
-A simple weather application built with React.js that fetches real-time weather data using the OpenWeather API.  
+## 📦 Installation
 
-🚀 Features <br>
-✅ Search for weather by city name. <br>
-✅ Display temperature, location, and weather description. <br>
-✅ Show hourly and daily forecasts. <br>
-✅ Use Material Symbols icons for UI enhancement. <br>
-✅ Responsive design. <br>
->>>>>>> 52d4f660791610bdf0821b972e82a0ca5fff5042
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/FirstP0P/WeatherApp.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd Weather_App
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+5. Open `http://localhost:5173/` in your browser.
+
+## 📚 Usage
+- Enter a city name in the search bar to view the weather details.
+- The app displays temperature, humidity, wind speed, and weather conditions.
+- Supports multiple locations and updates dynamically.
+
+## ⚙️ Configuration
+- Create a `.env` file in the root directory.
+- Add your API key:
+  ```sh
+  VITE_API_KEY=your_api_key_here
+  ```
+  
